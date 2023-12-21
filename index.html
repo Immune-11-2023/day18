@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charts</title>
+</head>
+
+<body>
+
+  <label for="date-start"></label>
+  <input id="date-start" type="date" name="date-start" value="2017-01-01">
+
+  <label for="date-end"></label>
+  <input id="date-end" type="date" name="date-end" value="2017-02-02">
+
+
+  <button id="click">Go!</button>
+
+  <div>
+    <canvas id="myChart"></canvas>
+  </div>
+  <div>
+    <canvas id="myChart2"></canvas>
+  </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"
+  integrity="sha512-ZwR1/gSZM3ai6vCdI+LVF1zSq/5HznD3ZSTk7kajkaj4D292NLuduDCO1c/NT8Id+jE58KYLKT7hXnbtryGmMg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./constants/company.js"></script>
+<script src="./src/index.js"></script>
+
+
+</html>
