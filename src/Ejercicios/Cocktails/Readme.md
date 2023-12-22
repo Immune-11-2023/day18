@@ -31,6 +31,3 @@ En el archivo `info.html`:
     - El tipo de vaso que se utiliza para servir el cocktail.
   
     - El tipo de bebida alcohólica que contiene el cocktail.
-  
-    - El tipo de sabor que tiene el cocktail.
-  
